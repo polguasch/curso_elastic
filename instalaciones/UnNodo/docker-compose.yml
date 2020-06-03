@@ -9,4 +9,4 @@ services:
     volumes:
       - /home/ubuntu/environment/datos/nodo1:/usr/share/elasticsearch/data
     environment:
-      - discovery.type=single-node
+            - discovery.type=single-node
